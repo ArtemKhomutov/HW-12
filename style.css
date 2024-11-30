@@ -1,0 +1,43 @@
+li {
+    list-style: none;
+}
+.box {
+    background-color: blue;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box2 {
+    background-color: blue;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.box3 {
+    background-color: blue;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box4 {
+    background-color: blue;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    font-size: 30px;
+}
